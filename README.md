@@ -43,7 +43,7 @@ pip install -r requirements.txt
 调性只是为了标注音阶。如果歌曲是小调，请使用其音阶对应的大调的调性。比如A小调对应的是C。
 
 ```
-python gen_pitch.py --audio <voice.mp3> -t <tone> <video.mp3> -o <output.mp4>
+python gen_pitch.py --audio <voice.mp3> -t <tone> <video.mp4> -o <output.mp4>
 
 # 举个例子
 python gen_pitch.py --audio wjk_raw.mp3 -t E wjk.mp4 -o wjk_with_pitch.mp4
